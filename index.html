@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div class="toggle-with-name">
+                <h1 class="heading">TODO</h1>
+                <div class="sun-moon"></div>
+            </div>
+        </div>
+        <div class="new-todo">
+            <form class="inputs">
+                <button class="input-check">
+                    <div class="circle" type="submit"></div>
+                </button>
+                <input type="text" class="header-input" placeholder="Create a new todo">
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <ul class="todo-list"></ul>
+        <div class="remove">
+            <h4 class="items-left">0 items left</h4>
+            <div class="refinesDesc">
+                <h4 class="refineAllDesc">All</h4>
+                <h4 class="refineActiveDesc">Active</h4>
+                <h4 class="refineCompleteDesc">Complete</h4>
+            </div>
+            <div class="clear-parent">
+                <h4 class="clear">Clear Completed</h4>
+            </div>
+        </div>
+        <div class="refinesMob">
+            <h4 class="refineAllMob">All</h4>
+            <h4 class="refineActiveMob">Active</h4>
+            <h4 class="refineCompleteMob">Complete</h4>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
